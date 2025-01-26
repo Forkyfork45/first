@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+   <style>
+    body {
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+    }
+    
+    .profile-card {
+        background-color: #333;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .profile-img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    
+    .name {
+        color: #ffffff;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    .location {
+        color: #a4c639;
+        margin: 5px 0;
+    }
+    
+    .bio {
+        color: #dddddd;
+        font-style: italic;
+        margin: 10px 0;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        background-color: #555;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+        background-color: #777;
+    }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="profile pic.jpg" alt="Jessica Randall" class="profile-img">
+        <h2 class="name">Jessica Randall</h2>
+        <p class="location">London, United Kingdom</p>
+        <p class="bio">"Front-end developer and avid reader."</p>
+        <div class="buttons">
+            <a href="#" class="btn">GitHub</a>
+            <a href="#" class="btn">Frontend Mentor</a>
+            <a href="#" class="btn">LinkedIn</a>
+            <a href="#" class="btn">Twitter</a>
+            <a href="#" class="btn">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
