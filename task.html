@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<style>
+    body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+.header,.taskboxs{
+   font-family: 'Nunito';
+     border: 10px;
+
+}
+.header{
+    text-align: center;
+    border:1px solid;
+    font-size: 20px;
+    color: #333;
+    background-color: #ffffff;
+    text-align: center;
+            font-size: 20px;
+            color: #333;
+            background-color: #ffffff;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 10px;
+        }
+
+        .taskboxs {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 20px;
+        }
+
+        .task-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .task-item img {
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+
+        .task-in-progress {
+            border: 1px solid #ffcc66;
+            background-color: #ffcc66;
+        }
+
+        .task-completed {
+            border: 1px solid #d6f5d6;
+            background-color: #d6f5d6;
+        }
+
+        .task-wont-do {
+            border: 1px solid #f5d5d6;
+            background-color: #f5d5d6;
+        }
+
+        .task-to-do {
+            border: 1px solid #d6eaff;
+            background-color: #d6eaff;
+        }
+
+        .add-new-task {
+            background-color: #ffbb66;
+           
+
+
+
+
+
+
+
+
+}
+     
+   .taskboxs{
+   border: 2px solid;
+    font-size: 20px;
+    text-align: left;
+   
+}
+.taskinprogress{
+    border: #ffcc66 solid 1px;
+    background-color: #ffcc66;
+   
+   
+    border-radius: 20px;
+  
+}
+.taskcompleted{
+    border: #d6f5d6 1px solid;
+    background-color: #d6f5d6;
+   
+    border-radius: 20px;
+    
+}
+.taskwontdo{
+    border: #f5d5d6 1px solid;
+    background-color: #f5d5d6;
+   
+    border-radius: 20px;
+}
+.tasktodo{
+    border: #d6eaff 1px solid;
+    background-color: #d6eaff;
+    
+    border-radius: 20px;
+    
+}
+.addnewtask{
+    background-color: #ffbb66;
+    border: #ffbb66 1px solid;
+    border-radius: 20px;
+   
+}
+.logs{
+    background-color: #a3dfa5;
+    border: #c9e4ca 1px solid;
+   
+    border-bottom: 20px;
+    border-radius: 20px;
+  
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1><img src="sticky-notes_10854482.png" alt="task"> My Task board</h1>
+        <span >task to keep organized</span>
+    </header>
+    <div id="taskboxs">
+    <div id="taskinprogress">
+        <img style="border-radius:10 ;" src="clock emoji.jpg" alt="progress"><span>Task in Progress</span>
+    </div>
+    <div id="taskcompleted">
+        <img style="border-radius:10px ;" src="dumbell manemoji.jpg" alt="completed"><span>Task Completed </span>
+    </div>
+<div id="taskwontdo">
+    <img style="border-radius:10px ;" src="coffeemug.jpg" alt="wontdo"><span>Task Won't Do</span>
+</div>
+<div id="tasktodo">
+    <img src="book.jpg" alt="task-to-do"><span>Task To Do</span>
+    <span style="font-size: 8px;">Work on a Challenge on devChallenges.io,learn TypeScript</span>
+</div>    
+<div id="addnewtask">
+    <img src="plus.png" alt="addnewtask"><span>Add New Task</span>
+</div>
+
+    </div>
+    
+</body>
+</html>
